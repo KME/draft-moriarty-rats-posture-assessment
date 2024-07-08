@@ -99,7 +99,7 @@ Table of Contents
    achieve due to complexities of customization requirements at each
    organization.  By using policy and measurement sets that may be
    offered at various assurance levels, local assessment of evidence can
-   be performed to continuousy assess compliance.  An example of a form
+   be performed to continuously assess compliance.  An example of a form
    of local attestation is through the Trusted Computing Group's Trusted
    Platform Module (TPM) format and assessment method.  This and other
    methods provide a secured log for transparency on the results of the
@@ -110,8 +110,8 @@ Table of Contents
    resources.  This is currently done today for the so called trusted
    boot process.  It is useful to share the results of the compliance to
    expected values for measurements and policies in order to gain a
-   bigger picture view of the governance, risk, and complaince posture
-   for a network.  As such, communiciating a summary result as evidence
+   bigger picture view of the governance, risk, and compliance posture
+   for a network.  As such, communicating a summary result as evidence
    tied including a link to supporting logs with a remote attestation
    defined in an Entity Attestation Token (EAT) profile
    [I-D.ietf-rats-eat] provides a way to accomplish that goal.  The
