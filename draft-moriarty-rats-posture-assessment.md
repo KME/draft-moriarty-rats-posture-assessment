@@ -84,6 +84,12 @@ This provides simpler options to enable posture assessment at selected levels by
 The measurement and policy sets may also be customized, but not necessary to achieve posture assessment to predefined options.
 This document describes a method to use existing attestation formats and protocols while allowing for defined profiles of policies, benchmarks, and measurements for specific assurance levels to provide transparency on posture assessment results summarized with remote attestations.
 
+# Conventions and Definitions
+
+{::boilerplate bcp14-tagged}
+
+# Posture Assessment Scenarios
+
 By way of example, the Center for Internet Security (CIS) hosts recommended configuration settings to secure operating systems, applications, and devices in CIS Benchmarks developed with industry experts.
 Attestations aligned to the CIS Benchmarks or other configuration guide such as a DISA STIG could be used to assert the configuration meets expectations.
 This has already been done for multiple platforms to demonstrate assurance for firmware according to NIST SP 800-193, Firmware Resiliency Guidelines [FIRMWARE].  In order to scale remote attestation, a single attestation for a set of benchmarks or policies being met with a link to the verification logs from the local assessments, is the evidence that may be sent to the verifier and then the relying party.
@@ -118,10 +124,6 @@ Scale, ease of use, full automation, and consistency for customer consumption of
 Mitigations may be baked into policy.
 Claim sets of measurements and policy verified to meet or not meet Endorsed values [I-D.ietf-rats-eat] are conveyed in an Entity Attestation Token made available to a RESTful
 interface in aggregate for the systems managed as evidence for the remote attestation. The Measurement or Policy Set may be registered in the IANA registry [created in this document](#iana), detailing the specific configuration policies and measurements required to adhere or prove compliance to the associated document to enable interoperability. Levels (e.g. high, medium, low, 1, 2, 3) or vendor specific instances of the policy defined in code required to verify the policy and measurements would be registered using a name for the policy set, that would also be used in the reporting EAT that includes the MPS along with other artifacts to prove compliance.
-
-# Conventions and Definitions
-
-{::boilerplate bcp14-tagged}
 
 # Policy and Measurement Set Definitions
 
@@ -231,4 +233,5 @@ Thank you, Samant Kakarla and Huijun Xie from Dell Technologies, for your detail
 Section 3 has been contributed by Rudy Bauer from Dell as well and an author will be added on the next revision.
 IANA section added in version 7 by Kathleen Moriarty, expanding the claims registered and adding a proposed registry to define policy and measurement sets.
 Thank you to Henk Birkholz for his review and edits.
+Thanks to Thomas Fossati, Michael Richardson, and Eric Voit for their detailed reviews on the mailing list.
 Thank you to A.J. Stein for converting the XMLMind workflow to Markdown and GitHub, editorial contributions, and restructuring of the document.
