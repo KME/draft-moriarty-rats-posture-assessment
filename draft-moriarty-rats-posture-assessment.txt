@@ -5,10 +5,12 @@
 Network Working Group                                     K. M. Moriarty
 Internet-Draft                     Transforming Information Security LLC
 Intended status: Standards Track                              M. Wiseman
-Expires: 4 January 2025                                  Beyond Identity
+Expires: 9 January 2025                                  Beyond Identity
                                                               A.J. Stein
                                                                     NIST
-                                                             3 July 2024
+                                                              C. Nelogal
+                                                                    Dell
+                                                             8 July 2024
 
 
   Remote Posture Assessment for Systems, Containers, and Applications
@@ -57,7 +59,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 4 January 2025.
+   This Internet-Draft will expire on 9 January 2025.
 
 Copyright Notice
 
@@ -426,9 +428,9 @@ Table of Contents
    [I-D.ietf-rats-eat]
               Lundblade, L., Mandyam, G., O'Donoghue, J., and C.
               Wallace, "The Entity Attestation Token (EAT)", Work in
-              Progress, Internet-Draft, draft-ietf-rats-eat-28, 25 June
+              Progress, Internet-Draft, draft-ietf-rats-eat-29, 8 July
               2024, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              rats-eat-28>.
+              rats-eat-29>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -499,3 +501,11 @@ Authors' Addresses
    Gaithersburg, MD 20899
    United States of America
    Email: ajstein.standards@gmail.com
+
+
+   Chandra Nelogal
+   Dell Technologies
+   176 South Street
+   MA 01748
+   United States of America
+   Email: chandra.nelogal@dell.com
