@@ -476,7 +476,9 @@ Contributors
    section added in version 7 by Kathleen Moriarty, expanding the claims
    registered and adding a proposed registry to define policy and
    measurement sets.  Thank you to Henk Birkholz for his review and
-   edits.
+   edits.  Thank you to A.J.  Stein for converting the XMLMind workflow
+   to Markdown and GitHub, editorial contributions, and restructuring of
+   the document.
 
 Authors' Addresses
 
@@ -501,6 +503,7 @@ Authors' Addresses
    Gaithersburg, MD 20899
    United States of America
    Email: ajstein.standards@gmail.com
+   URI:   https://orcid.org/0000-0003-1092-2642
 
 
    Chandra Nelogal
