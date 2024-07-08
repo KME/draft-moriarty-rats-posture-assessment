@@ -40,6 +40,7 @@ author:
   org: National Institute of Standards and Technology
   abbrev: NIST
   email: ajstein.standards@gmail.com
+  uri: https://orcid.org/0000-0003-1092-2642
   street: 100 Bureau Drive
   code: '20899'
   city: Gaithersburg
@@ -230,3 +231,4 @@ Thank you, Samant Kakarla and Huijun Xie from Dell Technologies, for your detail
 Section 3 has been contributed by Rudy Bauer from Dell as well and an author will be added on the next revision.
 IANA section added in version 7 by Kathleen Moriarty, expanding the claims registered and adding a proposed registry to define policy and measurement sets.
 Thank you to Henk Birkholz for his review and edits.
+Thank you to A.J. Stein for converting the XMLMind workflow to Markdown and GitHub, editorial contributions, and restructuring of the document.
