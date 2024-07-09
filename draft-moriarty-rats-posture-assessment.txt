@@ -5,12 +5,12 @@
 Network Working Group                                     K. M. Moriarty
 Internet-Draft                     Transforming Information Security LLC
 Intended status: Standards Track                              M. Wiseman
-Expires: 9 January 2025                                  Beyond Identity
+Expires: 10 January 2025                                 Beyond Identity
                                                               A.J. Stein
                                                                     NIST
                                                               C. Nelogal
                                                                     Dell
-                                                             8 July 2024
+                                                             9 July 2024
 
 
   Remote Posture Assessment for Systems, Containers, and Applications
@@ -21,10 +21,13 @@ Abstract
    This document establishes an architectural pattern whereby a remote
    attestation could be issued for a complete set of benchmarks or
    controls that are defined and grouped by an external entity,
-   preventing the need to send over individual attestations for each
+   eliminating the need to send over individual attestations for each
    item within a benchmark or control framework.  This document
    establishes a pattern to list sets of benchmarks and controls within
    CWT and JWT formats for use as an Entity Attestation Token (EAT).
+   While the discussion below pertains mostly to TPM, other Roots of
+   Trust such as TCG DICE, and non-TCG defined components will also be
+   inclulded.
 
 About This Document
 
@@ -59,7 +62,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 January 2025.
+   This Internet-Draft will expire on 10 January 2025.
 
 Copyright Notice
 
@@ -101,7 +104,7 @@ Table of Contents
    organization.  By using policy and measurement sets that may be
    offered at various assurance levels, local assessment of evidence can
    be performed to continuously assess compliance.  An example of a form
-   of local attestation is through the Trusted Computing Group's Trusted
+   of attestation is through the Trusted Computing Group's Trusted
    Platform Module (TPM) format and assessment method.  This and other
    methods provide a secured log for transparency on the results of the
    assessed evidence against expected values.  In order to support
@@ -116,9 +119,9 @@ Table of Contents
    tied including a link to supporting logs with a remote attestation
    defined in an Entity Attestation Token (EAT) profile
    [I-D.ietf-rats-eat] provides a way to accomplish that goal.  The
-   level of integration for local attestation meeting defined policies
-   and measurements at specific levels, including the ability to
-   remediate makes posture assessment through attestation achievable for
+   level of integration for attestation meeting defined policies and
+   measurements at specific levels, including the ability to remediate
+   makes posture assessment through attestation achievable for
    organizations of all sizes due to integration being required in
    existing toolsets and systems, built as an intrinsic capability.  The
    measurement and policy grouping results summarized in an EAT profile
