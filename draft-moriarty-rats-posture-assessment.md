@@ -145,17 +145,18 @@ The remote attestation framework shall include provisions for a Verifier Owner a
 
 Over its lifecycle, the Target Environment may experience modification due to: maintenance, failures, upgrades, expansion, moves, etc..
 
-The customer can chose to:
+The Relying Party Owner managing the Target Environment (e.g. customer using the product) can chose to:
 
-- Run remote attestation after Target Environment modification, or
-- Not take action and remain un-protected
+- Update the Appraisal Policy for Attestation Results and re-assess posture with this updated policy, summarizing with a remote attestation to the new policy or level, or
+- Run remote attestation after modification of the Target Environment as an external validation, or
+- Continue operation of the Target Environment as-is, without verification, potentially increasing risk
 
 In the case of Re-Attestation:
 
-- framework needs to invalidate previous TPM PCR values and tokens,
-- framework needs to collect new measurements,
+- framework needs to invalidate previous Reference Values (e.g. TPM PCR values and tokens),
+- framework needs to specify an Appraisal Policy for Evidence that requires fresh Evidence,
 - framework needs to maintain history or allow for history to be logged to enable change traceability attestation, and
-- framework needs to notify that the previous attestation has been invalidated
+- framework needs to notify that the previous Attestation Results has been invalidated
 
 # Configuration Sets
 
