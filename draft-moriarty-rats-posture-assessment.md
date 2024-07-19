@@ -145,10 +145,11 @@ The remote attestation framework shall include provisions for a Verifier Owner a
 
 Over its lifecycle, the Target Environment may experience modification due to: maintenance, failures, upgrades, expansion, moves, etc..
 
-The Relying Party Owner consuming the Target Environment (e.g. customer using the product) can chose to:
+The Relying Party Owner managing the Target Environment (e.g. customer using the product) can chose to:
 
-- Recommend or require the Attester provide fresh Evidence to the Verifier after modification, or
-- Continue operation of the Target Environment without the Attester verifying fresh Evidence, thereby increasing risk
+- Update the Appraisal Policy for Attestation Results and re-assess posture with this updated policy, summarizing with a remote attestation to the new policy or level, or
+- Run remote attestation after modification of the Target Environment as an external validation, or
+- Continue operation of the Target Environment as-is, without verification, potentially increasing risk
 
 In the case of Re-Attestation:
 
