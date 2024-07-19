@@ -1,7 +1,7 @@
 ---
 v: 3
 
-title: Remote Posture Assessment for Systems, Containers, and Applications
+title: Remote Posture Assessment for Systems, Containers, and Applications at Scale
 abbrev: RPASCA
 docname: draft-moriarty-rats-posture-assessment-latest
 cat: std
