@@ -79,11 +79,29 @@ This document establishes a pattern to list sets of benchmarks and controls with
 # Introduction
 
 Posture assessment has long been desired, but has been difficult to achieve due to complexities of customization requirements at each organization.
-By using policy and measurement sets that may be offered at various assurance levels, local assessment of evidence can be performed to continuously assess compliance. An example of a form of attestation is through the Trusted Computing Group's Trusted Platform Module (TPM) format and assessment method. This and other methods provide a secured log for transparency on the results of the assessed evidence against expected values. In order to support continuous monitoring of posture assessment and integrity in an enterprise or large data center, the local assessments and remediation are useful to reduce load on the network and remote resources. This is currently done today for the so called trusted boot process. It is useful to share the results of the compliance to expected values for measurements and policies in order to gain a bigger picture view of the governance, risk, and compliance posture for a network. As such, communicating a summary result as evidence tied including a link to supporting logs with a remote attestation defined in an Entity Attestation Token (EAT) profile [I-D.ietf-rats-eat] provides a way to accomplish that goal. The level of integration for attestation meeting defined policies and measurements at specific levels, including the ability to remediate makes posture assessment through attestation achievable for organizations of all sizes due to integration being required in existing toolsets and systems, built as an intrinsic capability.
-The measurement and policy grouping results summarized in an EAT profile may be provided by the vendor or by a neutral third party to enable ease of use and consistent implementations. The local system or server host performs the assessment of posture and remediation.
+By using policy and measurement sets that may be offered at various assurance levels, local assessment of evidence can be performed to continuously assess compliance.
+
+For example, the Trusted Computing Group's Trusted Platform Module (TPM) format and assessment method can provide this kind of compliance.  This and other methods employ a secured log for transparency on the results of the assessed evidence against expected values.
+
+In order to support continuous monitoring of posture assessment and integrity in an enterprise or large data center, the local assessments and remediation are useful to reduce load on the network and remote resources.
+This is currently done today in measured boot mechanisms.
+
+It is useful to be able to share these results in order to gain a big picture view of the governance, risk, and compliance posture for a network.
+
+As such, communicating a summary result as evidence tied including a link to supporting logs with a remote attestation defined in an Entity Attestation Token (EAT) profile [I-D.ietf-rats-eat] provides a way to accomplish that goal.
+
+This level of integration, which includes the ability to remediate, makes posture assessment through remote attestation achievable for organizations of all sizes.  This is enabled through integration with existing toolsets and systems, built as an intrinsic capability.
+
+The measurement and policy grouping results summarized in an EAT profile may be provided by the vendor or by a neutral third party to enable ease of use and consistent implementations.
+
+The local system or server host performs the assessment of posture and remediation.
 This provides simpler options to enable posture assessment at selected levels by organizations without the need to have in-house expertise.
+
 The measurement and policy sets may also be customized, but not necessary to achieve posture assessment to predefined options.
-This document describes a method to use existing attestation formats and protocols while allowing for defined profiles of policies, benchmarks, and measurements for specific assurance levels to provide transparency on posture assessment results summarized with remote attestations.
+
+This document describes a method to use existing remote attestation formats and protocols.
+The method described allows for defined profiles of policies, benchmarks, and measurements for specific assurance levels.
+This provides transparency on posture assessment results summarized with remote attestations.
 
 # Conventions and Definitions
 
