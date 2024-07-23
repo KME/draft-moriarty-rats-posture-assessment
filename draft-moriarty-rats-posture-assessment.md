@@ -63,7 +63,7 @@ normative:
   I-D.ietf-rats-eat:
 
 informative:
-  RFC8832:
+  RFC8322: ROLIE
   FIRMWARE: DOI.10.6028/NIST.SP.800-193
   REDFISH:
     target: https://www.dmtf.org/sites/default/files/standards/documents/DSP0266_1.20.0.pdf
@@ -105,7 +105,7 @@ There is a balance of exposure and evidence needed to assess posture when provid
 Currently, if using the TPM, logs and TPM PCR values may be passed to provide assurance of verification of attestation evidence meeting set requirements.
 Providing the set of evidence as assurance to a policy set can be accomplished with a remote attestation
 format such as the Entity Attestation Token (EAT) [I-D.ietf-rats-eat]
-and a RESTful interface such as ROLIE [RFC8832] or RedFish [REDFISH].
+and a RESTful interface such as ROLIE {{-ROLIE}} or RedFish [REDFISH].
 Policy definition blocks may be scoped to control measurement sets, where the EAT profile asserts compliance to the policy or measurement block specified and may include claims with the log and PCR value evidence.
 Measurement and Policy sets, referenced in an EAT profile may be published and
 maintained by separate entities (e.g.  CIS Benchmarks, DISA STIGs).
