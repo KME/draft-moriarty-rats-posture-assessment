@@ -147,7 +147,7 @@ interface in aggregate for the systems managed as evidence for the remote attest
 # Policy and Measurement Set Definitions
 
 This document defines EAT claims in the JWT [RFC7519] and CWT [RFC8392] registries to provide attestation to a set of verified claims within a defined grouping.
-The trustworthiness will be conveyed on original verified evidence as well as the attestation on the grouping. The claims provide the additional information needed for an EAT to convey compliance to a defined policy or measurement set to a system or application collecting evidence on policy and measurement assurance, for instance a governance, risk, and compliance (GRC) system.
+The trustworthiness will be conveyed on original verified evidence as well as the attestation on the grouping. The claims provide the additional information needed for an EAT to convey compliance to a defined policy or measurement set to a system or application collecting evidence on policy and measurement assurance, for instance a Governance, Risk, and Compliance (GRC) system.
 
 | Claim | Long Name                  | Claim Description                | Format |
 |-------|----------------------------|----------------------------------|--------|
@@ -182,7 +182,10 @@ In some cases, it may be difficult to attest to configuration settings for the i
 The use of an expected hash value for configuration settings can be used to compare the attested configuration set.
 In this case, the creator of the attestation verification measurements would define a set of values for which a message digest would be created and then signed by the attestor.
 The expected measurements would include the expected hash value for comparison.
-The configuration set could be the full attestation set to a Benchmark or a defined subset. These configuration sets can be registered for general use to reduce the need to replicate the policy and measurement assessments by others aiming to assure at the same level for a benchmark or hardening guide. This document creates an IANA registry for this purpose, creating consistency between automated policy and measurement set levels and the systems used to collect and report aggregate views for an organization across systems and applications, such as a GRC platform.
+
+The configuration set could be the full attestation set to a Benchmark or a defined subset. These configuration sets can be registered for general use to reduce the need to replicate the policy and measurement assessments by others aiming to assure at the same level for a benchmark or hardening guide.
+
+This document creates an IANA registry for this purpose, creating consistency between automated policy and measurement set levels and the systems used to collect and report aggregate views for an organization across systems and applications, such as a GRC platform.
 
 # Remediation
 
