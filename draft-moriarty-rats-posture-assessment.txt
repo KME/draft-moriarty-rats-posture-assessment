@@ -252,16 +252,16 @@ Table of Contents
    +=======+============================+====================+========+
    | Claim | Long Name                  | Claim Description  | Format |
    +=======+============================+====================+========+
-   | MPS   | Measurement or Policy Set  | Name for the MPS   |        |
+   | mps   | Measurement or Policy Set  | Name for the MPS   |        |
    +-------+----------------------------+--------------------+--------+
-   | LEM   | Log Evidence of MPS        | Log File or URI    |        |
+   | lem   | Log Evidence of MPS        | Log File or URI    |        |
    +-------+----------------------------+--------------------+--------+
-   | PCR   | TPM PCR Values             | URI                |        |
+   | pcr   | TPM PCR Values             | URI                |        |
    +-------+----------------------------+--------------------+--------+
-   | FMA   | Format of MPS Attestations | Format of included |        |
+   | fma   | Format of MPS Attestations | Format of included |        |
    |       |                            | attestations       |        |
    +-------+----------------------------+--------------------+--------+
-   | HSH   | Hash Value/Message Digest  | Hash value of      |        |
+   | hsh   | Hash Value/Message Digest  | Hash value of      |        |
    |       |                            | claim-set          |        |
    +-------+----------------------------+--------------------+--------+
 
