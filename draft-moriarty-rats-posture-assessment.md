@@ -133,11 +133,11 @@ The trustworthiness will be conveyed on original verified evidence as well as th
 
 | Claim | Long Name                  | Claim Description                | Format |
 |-------|----------------------------|----------------------------------|--------|
-| MPS   | Measurement or Policy Set  | Name for the MPS                 |        |
-| LEM   | Log Evidence of MPS        | Log File or URI                  |        |
-| PCR   | TPM PCR Values             | URI                              |        |
-| FMA   | Format of MPS Attestations | Format of included attestations  |        |
-| HSH   | Hash Value/Message Digest  | Hash value of claim-set          |        |
+| mps   | Measurement or Policy Set  | Name for the MPS                 |        |
+| lem   | Log Evidence of MPS        | Log File or URI                  |        |
+| pcr   | TPM PCR Values             | URI                              |        |
+| fma   | Format of MPS Attestations | Format of included attestations  |        |
+| hsh   | Hash Value/Message Digest  | Hash value of claim-set          |        |
 
 # Supportability and Re-Attestation
 
