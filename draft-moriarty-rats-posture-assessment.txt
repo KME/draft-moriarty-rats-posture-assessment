@@ -5,12 +5,12 @@
 Network Working Group                                     K. M. Moriarty
 Internet-Draft                     Transforming Information Security LLC
 Intended status: Standards Track                              M. Wiseman
-Expires: 20 January 2025                                 Beyond Identity
+Expires: 25 January 2025                                 Beyond Identity
                                                               A.J. Stein
                                                                     NIST
                                                               C. Nelogal
                                                                     Dell
-                                                            19 July 2024
+                                                            24 July 2024
 
 
  Remote Posture Assessment for Systems, Containers, and Applications at
@@ -63,7 +63,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 20 January 2025.
+   This Internet-Draft will expire on 25 January 2025.
 
 Copyright Notice
 
@@ -191,7 +191,7 @@ Table of Contents
    requirements.  Providing the set of evidence as assurance to a policy
    set can be accomplished with a remote attestation format such as the
    Entity Attestation Token (EAT) [I-D.ietf-rats-eat] and a RESTful
-   interface such as ROLIE [RFC8832] or RedFish [REDFISH].  Policy
+   interface such as ROLIE [RFC8322] or RedFish [REDFISH].  Policy
    definition blocks may be scoped to control measurement sets, where
    the EAT profile asserts compliance to the policy or measurement block
    specified and may include claims with the log and PCR value evidence.
@@ -484,9 +484,10 @@ Table of Contents
               <https://www.dmtf.org/sites/default/files/standards/
               documents/DSP0266_1.20.0.pdf>.
 
-   [RFC8832]  Jesup, R., Loreto, S., and M. Tüxen, "WebRTC Data Channel
-              Establishment Protocol", RFC 8832, DOI 10.17487/RFC8832,
-              January 2021, <https://www.rfc-editor.org/rfc/rfc8832>.
+   [RFC8322]  Field, J., Banghart, S., and D. Waltermire, "Resource-
+              Oriented Lightweight Information Exchange (ROLIE)",
+              RFC 8322, DOI 10.17487/RFC8322, February 2018,
+              <https://www.rfc-editor.org/rfc/rfc8322>.
 
 Contributors
 
