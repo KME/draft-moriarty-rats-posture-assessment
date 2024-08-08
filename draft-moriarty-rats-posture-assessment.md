@@ -205,8 +205,6 @@ This document does not add security consideration over what has been described i
 
 # IANA Considerations {#iana}
 
-Draft section - authors know more work is needed to properly define the registry and claims. This section is here now to assist in understanding the concepts.
-
 This document requests the creation of a Measurement and Policy Set (MPS) registry. The MPS registry will contain the names of the Benchmarks, Policy sets, DISA STIGS, controls, or other groupings as a  policy and measurement set that MAY correlate to standards documents containing assurance guidelines, compliance requirements, or other defined claim sets for verification of posture assessment to that MPS. The MPS registry will include the policy definition for specific levels of MPS assurance to enable interoperability between assertions of compliance (or lack thereof) and reporting systems.
 
 | MPS Name      | MPS Description                         | File with MPS definition     |
